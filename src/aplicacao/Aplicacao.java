@@ -30,6 +30,8 @@ public class Aplicacao {
 		  System.out.println(lista.contains("bruno"));
 		  System.out.println(lista.contains("abc"));
 		  System.out.println(lista.isEmpty()); System.out.println(lista.size());
+		  String[] array = Arrays.asList(lista.toArray()).toArray(new String[0]);
+		  System.out.println(Arrays.toString(array));
 		  System.out.println(lista.get(0)); System.out.println(lista.remove(2));
 		  System.out.println(lista.size()); lista.clear();
 		  System.out.println(lista.size());
@@ -42,7 +44,7 @@ public class Aplicacao {
 		  System.out.println(map.isEmpty());
 		  System.out.println(map.values().toString()); map.clear();
 		  System.out.println(map.size());
-		 
+		  
 		
 	}
 
